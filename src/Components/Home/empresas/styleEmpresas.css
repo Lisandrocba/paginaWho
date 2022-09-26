@@ -1,0 +1,23 @@
+.tituloEmpresas{
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+
+.contenedorCarruselEmpresas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEmpresas{
+    width: 8rem;
+    height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+

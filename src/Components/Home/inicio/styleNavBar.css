@@ -1,0 +1,93 @@
+.contenedorNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+.imgMenu{
+    height: 80px;
+}
+
+/*  style Carrusel   */
+.contenedorCarrusel{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    
+}
+
+.imgFondo1{
+    background-image: url('https://i.imgur.com/eMOiqtz.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imgFondo2{
+    background-image: url('https://i.imgur.com/iYvlPwA.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imgFondo3{
+    background-image: url('https://i.imgur.com/V49QqgY.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.contenedorCarrusel h3{
+    font-size: 2rem;
+    color: #b5d6ff;
+    text-shadow: 2px 2px 3px #000000;
+    background-color: #00000034;
+    padding: 3rem;
+}
+
+.textCarrusel{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0 15px;
+}
+
+.item{
+    transform: translateY(-1rem);
+    font-size: 0.8rem;
+    border-bottom: 2px solid #3981bf;
+}
+
+.item:hover{
+    border-bottom: none;
+    cursor: pointer;
+}
+
+@media (min-width: 897px)  {
+    .contenedorCarrusel h3{
+        font-size: 2.7rem;
+    }
+    .imgMenu{
+        height: 120px;
+    }
+}
+
+@media (max-width: 700px)  {
+    .contenedorCarrusel h3{
+        font-size: 1rem;
+    }
+    .contenedorNavBar{
+        padding: 0px;
+        margin: 0;
+    }
+
+    .contenedorCarrusel{
+        height: 30vh;
+    }
+}

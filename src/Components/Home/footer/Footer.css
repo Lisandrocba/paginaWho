@@ -1,0 +1,12 @@
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3981bf;
+}
+
+.contenedorFooter h3{
+    font-size: 0.5rem;
+    color: #fff;
+    font-weight: inherit;
+}
