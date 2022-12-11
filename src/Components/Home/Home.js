@@ -3,9 +3,9 @@ import Article from "./article/Article";
 import Contacto from "./Contacto/Contacto";
 import Seccion from "./seccion/Seccion";
 import Carrusel from "./inicio/Carrusel";
-import NavBar from "./inicio/NavBar";
+import NavBar from "../utils/NavBar";
 import Empresas from "./empresas/Empresas";
-import { Footer } from "./footer/Footer";
+import { Footer } from "../utils/footer/Footer";
 
 const Home =()=>{
     return (

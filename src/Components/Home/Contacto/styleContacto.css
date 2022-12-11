@@ -29,13 +29,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     margin: 0.5rem 2rem;
 }
 
 input[type='text'], 
 input[type='email'], 
-input[type='subject']{
+input[type='subject'],
+input[type='number']{
     margin-top: 0.2rem;
     margin-bottom: 0.8rem;
     width: 35vw;
@@ -45,8 +46,12 @@ input[type='subject']{
     outline: none;
     background-color: rgb(0, 0, 0);
     color: #fff;
-    
 }
+
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 
 .FontAwesomeIcon{
     color: #fff;
@@ -106,7 +111,7 @@ textarea:focus{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     margin: 0.5rem 2rem;
 }
 
@@ -142,22 +147,22 @@ textarea:focus{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     padding-top: 2rem;
 }
 
 .Phones{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .PhonesWhatsapp{
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-decoration: none;
 }
 
@@ -249,6 +254,7 @@ textarea:focus{
     input[type='text'], 
     input[type='email'], 
     input[type='subject'],
+    input[type='number'],
     textarea{
         margin-bottom: 1rem;
     }
@@ -282,6 +288,7 @@ textarea:focus{
     input[type='text'], 
     input[type='email'], 
     input[type='subject'],
+    input[type='number'],
     textarea{
         width: 80vw;
     }

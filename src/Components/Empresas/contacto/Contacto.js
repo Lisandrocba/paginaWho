@@ -1,23 +1,27 @@
-import React from 'react';
-import './styleContacto.css';
-import { useForm } from '../../../Hooks/useForm';
+import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import { useForm } from "../../../Hooks/useForm";
+import "./contacto.css"
 
-const formulario = "contacto"
+const formulario = "empresas"
 
 const initialForm = {
     name: '',
     email: '',
-    subject: '',
-    comments: ''
+    telefono: '',
+    compania: '',
+    comments: '',
+
 }
 
 const validateForm =(form)=>{
     let errors = {};
     let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
     let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
+    let regexTelefono = /^([0-9])+$/;
+    let regexCompania = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
     let regexComments = /^.{1,255}$/;
 
     if(!form.name.trim()){
@@ -32,8 +36,16 @@ const validateForm =(form)=>{
         errors.email = "El campo 'Email' es incorrecto";
     }
 
-    if(!form.subject.trim()){
-        errors.subject = "El campo 'Asunto a tratar' es requerido";
+    if(!form.telefono.trim()){
+        errors.telefono = "El campo 'Telefono' es requerido";
+    }else if(!regexTelefono.test(form.telefono.trim())){
+        errors.telefono = "El campo 'Telefono' es incorrecto";
+    }
+
+    if(!form.compania.trim()){
+        errors.compania = "El campo 'Compañia' es requerido";
+    }else if(!regexCompania.test(form.compania.trim())){
+        errors.compania = "El campo 'Compañia' es incorrecto";
     }
 
     if(!form.comments.trim()){
@@ -44,7 +56,6 @@ const validateForm =(form)=>{
 
     return errors
 }
-
 const Contacto =()=>{
 
     const {
@@ -56,24 +67,27 @@ const Contacto =()=>{
         handleSubmit
     } = useForm(initialForm, validateForm, formulario)
 
-    return (
-        <div className='contacto'>
-            <h3 className='tituloContacto'>Contacto</h3>
+    return(
+        <div className='contacto' style={{paddingTop: "2rem"}}>
             <div className='contenedorContacto'>
                 <form className='contenedorForm' onSubmit={handleSubmit}>
-                    <input type='text' name='name' placeholder='Escribe tu nombre' onChange={handleChange} value={form.name} onBlur={handleBlur} required/>
+                    <input type='text' name='name' placeholder='Nombre completo' onChange={handleChange} value={form.name} onBlur={handleBlur} required/>
                     <div className='contenedorError'>
                         {errors.name && <p className='mensajeError'>{errors.name}</p>}
                     </div>
-                    <input type='email' name='email' placeholder='Escribe tu email' onChange={handleChange} value={form.email} onBlur={handleBlur} required/>
+                    <input type='email' name='email' placeholder='Correo electronico' onChange={handleChange} value={form.email} onBlur={handleBlur} required/>
                     <div className='contenedorError'>
                         {errors.email && <p className='mensajeError'>{errors.email}</p>}
                     </div>
-                    <input type='subject' name='subject' placeholder='Asunto a tratar' onChange={handleChange} value={form.subject} onBlur={handleBlur} required/>
+                    <input type='number' name='telefono' placeholder='Telefono' onChange={handleChange} value={form.telefono} onBlur={handleBlur} required/>
                     <div className='contenedorError'>
-                        {errors.subject && <p className='mensajeError'>{errors.subject}</p>}
+                        {errors.telefono && <p className='mensajeError'>{errors.telefono}</p>}
                     </div>
-                    <textarea name='comments' cols='50' rows='5' value={form.comments} placeholder='Escribe tus comentarios' onBlur={handleBlur} onChange={handleChange} required></textarea>
+                    <input type='text' name='compania' placeholder='Compañia' onChange={handleChange} value={form.compania} onBlur={handleBlur} required/>
+                    <div className='contenedorError'>
+                        {errors.compania && <p className='mensajeError'>{errors.compania}</p>}
+                    </div>
+                    <textarea  name='comments' cols='50' rows='5' value={form.comments} placeholder='Escribe tus comentarios' onBlur={handleBlur} onChange={handleChange} required></textarea>
                     <div className='contenedorError'>
                         {errors.comments && <p className='mensajeError'>{errors.comments}</p>}
                     </div>
@@ -144,4 +158,4 @@ const Contacto =()=>{
     )
 }
 
-export default Contacto;
+export default Contacto

@@ -1,0 +1,43 @@
+.contenedorHeader{
+    background-image: url('../../../Multimedia/fondoHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 4rem;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorHeader h3{
+    color: #98c7f0;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+}
+
+.contenedorHeader p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+}
+
+@media (max-width: 700px){
+    .contenedorHeader{
+        height: 50vh;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+    .contenedorHeader h3{
+        font-size: 2rem;
+    }
+    .contenedorHeader p{
+        font-size: 1.5rem;
+    }
+}

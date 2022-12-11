@@ -1,8 +1,7 @@
-import React from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-export const useForm = (initialForm, validateForm) => {
+export const useForm = (initialForm, validateForm, formulario) => {
   const [form, setForm] = useState(initialForm);
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(true);
@@ -25,10 +24,17 @@ export const useForm = (initialForm, validateForm) => {
     setErrors(validateForm(form))
 
     if(Object.keys(errors).length === 0){
-      emailjs.sendForm('service_7fjzocl', 'template_2g6rlxs', e.target, 'jTWgE9_LnAdbrSmz5')
-        .then(res=>console.log(res))
-        .catch(err=>console.log(err)) 
-      setLoading(false)
+      if(formulario === "contacto"){
+        emailjs.sendForm('service_7fjzocl', 'template_2g6rlxs', e.target, 'jTWgE9_LnAdbrSmz5')
+          .then(res=>console.log(res))
+          .catch(err=>console.log(err)) 
+        setLoading(false)
+      }else if(formulario === "empresas"){
+        emailjs.sendForm('service_7fjzocl', 'template_hsdda1g', e.target, 'jTWgE9_LnAdbrSmz5')
+          .then(res=>console.log(res))
+          .catch(err=>console.log(err)) 
+        setLoading(false)
+      }
     }
   }
 
