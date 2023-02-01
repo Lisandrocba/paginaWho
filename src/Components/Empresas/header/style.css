@@ -4,7 +4,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 4rem;
-    height: 75vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,12 +12,12 @@
 }
 
 .contenedorHeader h3{
-    color: #fff;
+    color: #b5d6ff;
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    text-shadow: 2px 2px rgb(39, 39, 39);
-    margin: 0;
+    text-shadow: 2px 2px 3px #000000;
+    margin: 0 1rem;
 }
 
 .contenedorHeader p{
@@ -28,17 +28,21 @@
     margin: 0;
 }
 
+@media (max-width: 897px)  {
+    .contenedorHeader{
+        height: 40vh;
+    }
+}
 @media (max-width: 700px){
     .contenedorHeader{
-        height: 50vh;
+        height: 30vh;
         background-size: cover;
         background-attachment: scroll;
         background-position: 0;
     }
     .contenedorHeader h3{
-        font-size: 2rem;
-    }
-    .contenedorHeader p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
+
+ 

@@ -24,7 +24,7 @@ const Carrusel =()=>{
         >
                 <SwiperSlide>
                     <div className='contenedorCarrusel imgFondo1'>
-                        <h3>ENCUENTRA EL CAMBIO QUE NECESITAS</h3>
+                        <h3>ENCUENTRA EL CAMBIO QUE BUSCAS</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>

@@ -1,0 +1,68 @@
+#CasosCarrusel {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contenedroSwiper{
+  border-radius: 15px;
+  box-shadow: 0.8px 0.8px 5px rgba(0, 0, 0, 0.99);
+  border: 2px solid #000;
+  margin-bottom: 3rem;
+  
+}
+.contenedorCaso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vw 0;
+    font-size: 0.8rem;
+}
+.imgCaso{
+    width: 5rem;
+    border-radius: 50%;
+}
+.contenedorTextoCaso{
+    padding: 1rem;
+    border-radius: 0.2rem;
+    
+}
+.tituloCaso{
+    font-size: 1rem;
+    margin: 0.7rem 0 0 0;
+    padding: 0;
+}
+.subtituloCaso{
+    font-size: 0.5rem;
+    color:rgba(58, 58, 58, 0.99);
+    margin: 0;
+    padding: 0;
+}

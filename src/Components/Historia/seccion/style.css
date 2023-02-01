@@ -1,114 +1,46 @@
-.contenedorSeccion{
-    display: flex;
-    flex-direction: column;
+.fondoHistoria{
+    background-color: #3980bf;
 }
-.mision{
+.contenedorTotalHistoria{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #3981bf;
-    border-radius: 0 0 0 20px;
-    background-color: #fff;
+    padding: 3rem 0;
+}
+.contenedorSeccion{
+    padding: 2rem;
+    transform: translateY(-20px);
+}
+.imgHistoria{
+    width: 100%;
+    height: 60vh;
 }
 .imgMision{
-    width: 15rem;
-    border-radius: 50%;
-    padding-right: 2rem;
+    border-radius: 25px 0 0 25px;
 }
-.imgVision{
-    width: 15rem;
-    border-radius: 50%;
-}
-.ContenedorMision{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #3981bf;
-    height: 70vh;
-    
-}
-.vision{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 0 20px;
-}
-.contenedorImgVision{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3981bf;
-    margin: 0;
-    padding: 0;
-    height: 70vh;
-    padding-left: 2rem;
-}
-.ContenedorVision{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 70vh;
-    color: #fff;
-    background-color: #3981bf;
-    border-radius: 0 20px 20px 0;
-    margin-right: 2%;
-}
-
-.valores{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #3981bf;
-    border-radius: 0 0 0 20px;
-    background-color: #fff;
-}
-.ContenedorValores{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #3981bf;
-    height: 70vh;
-    border-radius: 20px 0 0 0;
-    background-color: #fff;
-}
-
-.tituloSection{
-    font-size: 4rem;
-    margin: 0.5rem 0;
-    text-align: center;
-    position: relative;
-}
-
-.parrafoSeccion{
-    font-size: 1.3rem;
-    margin: 0 4rem;
-    position: relative;
-    text-align: center;
-}
-
 .numeroSeccion{
+    font-size: 5rem;
     position: absolute;
-    font-size: 15rem;
-    margin: 0;
-    color: #d2d3d3;
-    opacity: 0.5;  
-    left: 7rem;
+    transform: translateY(-110px);
+    color: rgba(0, 0, 0, 0.151);
 }
-
-.numeroSeccionMid{
-    position: absolute;
-    font-size: 15rem;
-    margin: 0;
-    color: #d2d3d3;
-    opacity: 0.5;  
-    right: 6rem;
+.tituloSection{
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #fff;
+    position: relative;
 }
-
-@media (max-width: 700px){
-    .ContenedorVision{
-        margin-right: 0;
-    }
+.parrafoSeccion{
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    color: rgb(215, 215, 215);
+}
+.listaValores{
+    list-style: none;
+}
+.listaValores li{
+    color: rgb(215, 215, 215);
+    font-size: 1.2rem;
+    text-decoration: none;
 }

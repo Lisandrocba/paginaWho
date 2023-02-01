@@ -14,7 +14,7 @@ const Article =()=>{
                     <img src={blanquita} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
-                <div class='contenedorTextAvatar'>
+                <div className='contenedorTextAvatar'>
                     <p className='nombreAvatar'>María Belén Córdoba</p>
                     <p className='cofounder'>Co-Fundador</p>
                 </div>
@@ -24,7 +24,7 @@ const Article =()=>{
                     <img src={nadia} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
-                <div class='contenedorTextAvatar'>
+                <div className='contenedorTextAvatar'>
                     <p className='nombreAvatar'>Nadia Jurevicius Rodríguez</p>
                     <p className='cofounder'>Co-Fundador</p>
                 </div>
@@ -34,7 +34,7 @@ const Article =()=>{
                     <img src={juan} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
-                <div class='contenedorTextAvatar'>
+                <div className='contenedorTextAvatar'>
                     <p className='nombreAvatar'>Juan Manuel Román</p>
                     <p className='cofounder'>Co-Fundador</p>
                 </div>

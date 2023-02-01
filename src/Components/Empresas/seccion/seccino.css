@@ -5,8 +5,25 @@
     align-items: center;
     margin: 3rem 5rem;
     text-align: center;
+    color: #fff;
+    font-size: 1.5rem
 }
 .textoMedio{
    padding: 0 5rem;
    text-align: center;
+   color: #fff;
+}
+
+@media (max-width: 897px)  {
+    
+}
+
+@media (max-width: 700px)  {
+    .contenedorTextoSeccion{
+        margin: 2.5rem 2rem;
+        font-size: 1rem;
+    }
+    .textoMedio{
+        padding: 0 1rem;
+    }
 }

@@ -1,21 +1,22 @@
 import React from "react";
 import { Footer } from "../utils/footer/Footer";
 import NavBar from "../utils/NavBar";
-import Casos from "./casos/Casos";
+import CasosCarrusel from "./casosCarrusel.js/CasosCarrusel";
 import Contacto from "./contacto/Contacto";
 import Header from "./header/Header.js";
 import Seccion from "./seccion/seccion";
+import './styles.css'
 
 const Empresas =()=>{
     return(
-        <>
+        <div className='contenedorEmpresasTotal'>
             <NavBar/>
             <Header />
             <Seccion />
-            <Casos />
+            <CasosCarrusel />
             <Contacto />
             <Footer />
-        </>
+        </div>
     )
 }
 

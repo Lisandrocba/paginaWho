@@ -4,7 +4,7 @@ import './style.css';
 const Header =()=>{
     return(
         <div className='contenedorHeader'>
-            <h3>Podemos ayudarte a conseguir el talento que necesita tu empresa.</h3>
+            <h3>CONSEGUIMOS EL TALENTO QUE NECESITA TU EMPRESA.</h3>
         </div>
     )
 }
