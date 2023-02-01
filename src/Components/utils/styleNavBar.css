@@ -123,6 +123,9 @@
         height: 30vh;
     }
     .imgMenu{
-        height: 9vh;
+        height: 5vh;
+    }
+    .itemNavbar{
+        font-size: 0.5rem;
     }
 }

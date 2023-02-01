@@ -25,7 +25,7 @@ const Article =()=>{
                 </a>
                 <div className='lineaAvatar'></div>
                 <div class='contenedorTextAvatar'>
-                    <p className='nombreAvatar'>Nadia Jurevicius Rodriguez</p>
+                    <p className='nombreAvatar'>Nadia Jurevicius Rodríguez</p>
                     <p className='cofounder'>Co-Fundador</p>
                 </div>
             </div>
@@ -35,7 +35,7 @@ const Article =()=>{
                 </a>
                 <div className='lineaAvatar'></div>
                 <div class='contenedorTextAvatar'>
-                    <p className='nombreAvatar'>Juan Manuel Roman</p>
+                    <p className='nombreAvatar'>Juan Manuel Román</p>
                     <p className='cofounder'>Co-Fundador</p>
                 </div>
             </div>

@@ -24,17 +24,17 @@ const Carrusel =()=>{
         >
                 <SwiperSlide>
                     <div className='contenedorCarrusel imgFondo1'>
-                        <h3>Encontrá el cambio que necesitas</h3>
+                        <h3>ENCUENTRA EL CAMBIO QUE NECESITAS</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='contenedorCarrusel imgFondo2'>
-                        <h3>Tenemos el talento que buscas para tu equipo</h3>
+                        <h3>CONSEGUIMOS EL TALENTO QUE NECESITA TU EMPRESA</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='contenedorCarrusel imgFondo3'>
-                        <h3>¿Querés ser parte de nuestro equipo como reclutador?</h3>
+                        <h3>¿QUIERES SER PARTE DE NUESTRO EQUIPO COMO RECLUTADOR?</h3>
                     </div>
                 </SwiperSlide>
         </Swiper>

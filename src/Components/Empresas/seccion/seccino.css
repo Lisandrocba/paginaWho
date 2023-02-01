@@ -1,0 +1,12 @@
+.contenedorTextoSeccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+    text-align: center;
+}
+.textoMedio{
+   padding: 0 5rem;
+   text-align: center;
+}

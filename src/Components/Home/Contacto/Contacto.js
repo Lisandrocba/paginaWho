@@ -114,7 +114,7 @@ const Contacto =()=>{
                             </div>
                             <a className='PhonesWhatsapp' href='https://wa.me/+5491165227793' target='_blank' rel='noreferrer'>
                                 <FontAwesomeIcon icon={faWhatsapp} className='FontAwesomeIconPhone'/>
-                                <p className='subtituloPhone'>+54 9 11 6522 7793 - Juan Manuel Roman</p>
+                                <p className='subtituloPhone'>+54 9 11 6522 7793 - Juan Manuel Román</p>
                             </a>
                         </div>
                         <div>
@@ -134,7 +134,7 @@ const Contacto =()=>{
                             </div>
                             <a className='PhonesWhatsapp' href='https://wa.me/+34608329393' target='_blank' rel='noreferrer'>
                                 <FontAwesomeIcon icon={faWhatsapp} className='FontAwesomeIconPhone'/>
-                                <p className='subtituloPhone'>+34 608 32 93 93 - Nadia Jurevicius Rodriguez</p>
+                                <p className='subtituloPhone'>+34 608 32 93 93 - Nadia Jurevicius Rodríguez</p>
                             </a>
                         </div>
                     </div>

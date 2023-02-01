@@ -1,0 +1,39 @@
+.contenedorHistoria{
+    background-image: url('../../../Multimedia/fondoHistoria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorHistoria h3{
+    color: #98c7f0;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+}
+
+.contenedorHistoria p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+}
+
+@media (max-width: 700px){
+    .contenedorHistoria{
+        height: 40vh;
+    }
+    .contenedorHistoria h3{
+        font-size: 2rem;
+    }
+    .contenedorHistoria p{
+        font-size: 1.5rem;
+    }
+}

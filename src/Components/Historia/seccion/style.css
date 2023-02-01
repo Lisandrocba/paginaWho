@@ -1,0 +1,114 @@
+.contenedorSeccion{
+    display: flex;
+    flex-direction: column;
+}
+.mision{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3981bf;
+    border-radius: 0 0 0 20px;
+    background-color: #fff;
+}
+.imgMision{
+    width: 15rem;
+    border-radius: 50%;
+    padding-right: 2rem;
+}
+.imgVision{
+    width: 15rem;
+    border-radius: 50%;
+}
+.ContenedorMision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3981bf;
+    height: 70vh;
+    
+}
+.vision{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 20px;
+}
+.contenedorImgVision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3981bf;
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    padding-left: 2rem;
+}
+.ContenedorVision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    color: #fff;
+    background-color: #3981bf;
+    border-radius: 0 20px 20px 0;
+    margin-right: 2%;
+}
+
+.valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3981bf;
+    border-radius: 0 0 0 20px;
+    background-color: #fff;
+}
+.ContenedorValores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3981bf;
+    height: 70vh;
+    border-radius: 20px 0 0 0;
+    background-color: #fff;
+}
+
+.tituloSection{
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.parrafoSeccion{
+    font-size: 1.3rem;
+    margin: 0 4rem;
+    position: relative;
+    text-align: center;
+}
+
+.numeroSeccion{
+    position: absolute;
+    font-size: 15rem;
+    margin: 0;
+    color: #d2d3d3;
+    opacity: 0.5;  
+    left: 7rem;
+}
+
+.numeroSeccionMid{
+    position: absolute;
+    font-size: 15rem;
+    margin: 0;
+    color: #d2d3d3;
+    opacity: 0.5;  
+    right: 6rem;
+}
+
+@media (max-width: 700px){
+    .ContenedorVision{
+        margin-right: 0;
+    }
+}

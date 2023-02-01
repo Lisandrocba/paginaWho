@@ -4,8 +4,7 @@ import './style.css';
 const Header =()=>{
     return(
         <div className='contenedorHeader'>
-            <h3>Tu equipo, tu futuro</h3>
-            <p>Contactanos</p>
+            <h3>Podemos ayudarte a conseguir el talento que necesita tu empresa.</h3>
         </div>
     )
 }

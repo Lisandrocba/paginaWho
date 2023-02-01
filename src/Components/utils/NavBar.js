@@ -7,8 +7,8 @@ function NavBar (){
         <div className='contenedorNavegacion'>
             <NavLink to='/'><img src='https://i.imgur.com/tKZzvsT.png' alt='Logo' height= '40' className='imgMenu'/></NavLink>
             <ul className='contenedorNavBar'>
+                <li><NavLink className='itemNavbar' to='/historia'>Nosotros</NavLink></li>
                 <li><NavLink className='itemNavbar' to='/empresas'>Empresas</NavLink></li>
-                {/* <li><NavLink className='itemNavbar' to='/empresas'>Trabaja con nosotros</NavLink></li> */}
             </ul>   
         </div>
     )
