@@ -15,21 +15,22 @@ import "swiper/css/pagination";
 import "./stylesCasos.css";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination, Navigation, Autoplay } from "swiper";
 
 export default function CasosCarrusel() {
   return (
     <>
       <Swiper
-        slidesPerView={4}
-        spaceBetween={5}
-        freeMode={true}
-        grabCursor={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper"
+        modules={[FreeMode, Pagination, Navigation, Autoplay]}
+        slidesPerView={2}
+        spaceBetween={50}
+        loop={true}  
+        navigation={true}
+        pagination={{ clickable: true }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: true
+          }}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -40,23 +41,23 @@ export default function CasosCarrusel() {
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 3,
-            spaceBetween: 10,
+            slidesPerView: 2,
+            spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 10,
+            slidesPerView: 2,
+            spaceBetween: 20,
           },
           1280: {
-            slidesPerView: 4,
-            spaceBetween: 10,
+            slidesPerView: 3,
+            spaceBetween: 20,
           },
         }}
       >
         <SwiperSlide className="contenedroSwiper">
           <div className="contenedorCaso">
             <p className="contenedorTextoCaso">
-              « Recomiendo 100% a los chicos de WHO, cada búsqueda que tenemos
+              « Recomiendo 100% a los chicos de Who? Consultora Integral, cada búsqueda que tenemos
               se muestran siempre predispuestos trabajando a riesgo hasta
               encontrar varios candidatos para cada vacante, realizando primeras
               entrevistas de filtro muy eficientes. Es muy importante el día a
@@ -64,9 +65,13 @@ export default function CasosCarrusel() {
               este mundo que es tan importante la velocidad y proactividad,
               logrando una sinergia muy buena »
             </p>
-            <img alt="fotojose" src={jose} className="imgCaso" />
-            <p className="tituloCaso">Jordan Ferreyra</p>
-            <p className="subtituloCaso">Socio Gerente en TEBSA SRL</p>
+            <div className="contenedorFotoyTitulo">
+              <img alt="fotojose" src={jose} className="imgCaso" />
+              <div className="contenedorNombreyTrabajo">
+                <p className="tituloCaso">José Bertoli</p>
+                <p className="subtituloCaso">Cofundador en TRIZAP</p>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="contenedroSwiper">
@@ -79,9 +84,13 @@ export default function CasosCarrusel() {
               proximidad entre el Cliente y el Proveedor difícil de encontrar en
               esta era de la virtualidad »
             </p>
-            <img alt="fotojose" src={juan} className="imgCaso" />
-            <p className="tituloCaso">Juan Amuchástegui</p>
-            <p className="subtituloCaso">Cofundador en The Colony</p>
+            <div className="contenedorFotoyTitulo">
+              <img alt="fotojose" src={juan} className="imgCaso" />
+              <div className="contenedorNombreyTrabajo">
+                <p className="tituloCaso">Juan Amuchástegui</p>
+                <p className="subtituloCaso">Cofundador en The Colony</p>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="contenedroSwiper">
@@ -95,9 +104,13 @@ export default function CasosCarrusel() {
               y los procesos de selección que hemos realizado han sido todos
               exitosos »
             </p>
-            <img alt="fotojose" src={jordanFerr} className="imgCaso" />
-            <p className="tituloCaso">Jordan Ferreyra</p>
-            <p className="subtituloCaso">Socio Gerente en TEBSA SRL</p>
+            <div className="contenedorFotoyTitulo">
+              <img alt="fotojose" src={jordanFerr} className="imgCaso" />
+              <div className="contenedorNombreyTrabajo">
+                <p className="tituloCaso">Jordan Ferreyra</p>
+                <p className="subtituloCaso">Socio Gerente en TEBSA SRL</p>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="contenedroSwiper">
@@ -110,9 +123,13 @@ export default function CasosCarrusel() {
               necesidad y saben adecuar el perfil a lo que buscamos, lo cual me
               genera mucha tranquilidad ante una nueva incorporación »
             </p>
-            <img alt="fotojose" src={fernando} className="imgCaso" />
-            <p className="tituloCaso">Fernando Olivero</p>
-            <p className="subtituloCaso">Socio Gerente en TEBSA SRL</p>
+            <div className="contenedorFotoyTitulo">
+              <img alt="fotojose" src={fernando} className="imgCaso" />
+              <div className="contenedorNombreyTrabajo">
+                <p className="tituloCaso">Fernando Olivero</p>
+                <p className="subtituloCaso">Socio Gerente en TEBSA SRL</p>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="contenedroSwiper">
@@ -125,11 +142,14 @@ export default function CasosCarrusel() {
               nuestra necesidad, encuentran al candidato idóneo y optimizamos
               recursos »
             </p>
-            <img alt="fotojose" src={martin} className="imgCaso" />
-            <p className="tituloCaso">Martin Paulino</p>
-            <p className="subtituloCaso">
-              Socio Gerente HPampa Comercio Internacional
-            </p>
+            <div className="contenedorFotoyTitulo">
+              <img alt="fotojose" src={martin} className="imgCaso" />
+              <div className="contenedorNombreyTrabajo">
+                <p className="tituloCaso">Martin Paulino</p>
+                <p className="subtituloCaso">Socio Gerente HPampa</p>
+              </div>
+            </div>
+              
           </div>
         </SwiperSlide>
       </Swiper>

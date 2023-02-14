@@ -1,7 +1,7 @@
 import React from 'react';
 import blanquita from '../../../Multimedia/blanquita.jpg';
 import nadia from '../../../Multimedia/nadia.jpg';
-import juan from '../../../Multimedia/juan.jpeg'
+import juan from '../../../Multimedia/juan.jpg'
 
 import './styleArtycle.css';
 

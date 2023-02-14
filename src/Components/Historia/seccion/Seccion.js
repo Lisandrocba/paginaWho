@@ -1,12 +1,19 @@
 import React from "react";
 import "./style.css";
 import Historia from "../../../Multimedia/historia.jpg";
-import imgHistoria from "../../../Multimedia/fondoHistoria.jpg";
+import Honestidad from "../../../Multimedia/Honestidad.jpg";
+import Equipo from "../../../Multimedia/TrabajoEnEquipo.jpg";
+import Compromiso from "../../../Multimedia/Compromiso.jpg";
+import Pasion from "../../../Multimedia/Pasion.jpg";
+import Empatia from "../../../Multimedia/Empatia.jpg";
+
 
 const Seccion = () => {
   return (
     <div className="fondoHistoria">
-      <img alt="inicioHistoria" src={imgHistoria} className="imgHistoria"/>
+      <div className="imgHistoria">
+
+      </div>
       <div className="contenedorTotalHistoria">
         <div className="contenedorSeccion">
           <div className="mision">
@@ -36,23 +43,38 @@ const Seccion = () => {
             <div className="ContenedorValores">
               <p className="numeroSeccion">03.</p>
               <p className="tituloSection">Valores</p>
-              <ul className="listaValores">
-                <li>
-                Honestidad.
-                </li>
-                <li>
-                Trabajo en equipo.
-                </li>
-                <li>
-                Compromiso.
-                </li>
-                <li>
-                Pasíon.
-                </li>
-                <li>
-                Empatía.
-                </li>
-              </ul>
+              <div className="listaValores">
+                <div>
+                  <img src={Honestidad} alt="Imagen Honestidad"/>
+                  <p>
+                     Honestidad.
+                  </p>
+                </div>
+                <div>
+                  <img src={Equipo} alt="Imagen Trabajo en equipo"/>
+                  <p>
+                    Trabajo en equipo.
+                  </p>
+                </div>
+                <div>
+                  <img src={Compromiso} alt="Imagen compromiso"/>
+                  <p>
+                    Compromiso.
+                  </p>
+                </div>
+                <div>
+                  <img src={Pasion} alt="Imagen pasion"/>
+                  <p>
+                    Pasíon.
+                  </p>
+                </div>
+                <div>
+                  <img src={Empatia} alt="Imagen empatia"/>
+                  <p>
+                    Empatía.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

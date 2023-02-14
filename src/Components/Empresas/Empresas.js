@@ -5,7 +5,6 @@ import CasosCarrusel from "./casosCarrusel.js/CasosCarrusel";
 import Contacto from "./contacto/Contacto";
 import Header from "./header/Header.js";
 import Seccion from "./seccion/seccion";
-import './styles.css'
 
 const Empresas =()=>{
     return(

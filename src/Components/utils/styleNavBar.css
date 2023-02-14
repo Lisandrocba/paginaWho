@@ -65,26 +65,29 @@
     background-image: url('https://i.imgur.com/eMOiqtz.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    filter: brightness(1.1);
 }
 
 .imgFondo2{
     background-image: url('https://i.imgur.com/iYvlPwA.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    filter: brightness(1);
 }
 
 .imgFondo3{
     background-image: url('https://i.imgur.com/V49QqgY.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    filter: brightness(1.1);
 }
 
 .contenedorCarrusel h3{
     font-size: 2rem;
     color: #b5d6ff;
     text-shadow: 2px 2px 3px #000000;
-    background-color: #00000034;
     padding: 3rem;
+    position: absolute;
 }
 
 .textCarrusel{
