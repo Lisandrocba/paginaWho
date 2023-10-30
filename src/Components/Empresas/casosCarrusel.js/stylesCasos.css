@@ -55,6 +55,20 @@
     background-color: #3980bf;
     color: #fff;
 }
+.lineaSeparacion{
+  height: 3px;
+  width: 80vw;
+  background-color: #3980bf;
+  margin: auto auto;
+  border-radius: 50%;
+  margin: 5rem auto;
+}
+.tituloCasos{
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3980bf;
+  font-weight: bold;
+}
 .tituloCaso{
     font-size: 1.4rem;
     margin: 0.7rem 0 0 0;
@@ -95,5 +109,14 @@
 @media (max-width: 450px){
  .contenedroSwiper{
   width: 80%;
+ }
+ .contenedorTextoCaso{
+  margin: 1rem;
+ }
+ .imgCaso{
+  margin-left: 1rem;
+ }
+ .tituloCasos{
+  font-size: 1.2rem;
  }
 }

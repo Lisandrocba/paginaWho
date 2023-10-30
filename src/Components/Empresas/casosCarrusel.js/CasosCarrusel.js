@@ -20,6 +20,8 @@ import { FreeMode, Pagination, Navigation, Autoplay } from "swiper";
 export default function CasosCarrusel() {
   return (
     <>
+      <div className="lineaSeparacion"></div>
+      <p className="tituloCasos">Conocé lo que dicen nuestros clintes</p>
       <Swiper
         modules={[FreeMode, Pagination, Navigation, Autoplay]}
         slidesPerView={2}
@@ -28,7 +30,7 @@ export default function CasosCarrusel() {
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 4000,
+          delay: 10000,
           disableOnInteraction: true
           }}
         breakpoints={{

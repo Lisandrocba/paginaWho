@@ -69,7 +69,7 @@ const Contacto =()=>{
 
     return(
         <div className="contenedorEmpresas">
-            <p>Si queres saber más de nuestros servicios, contáctanos.</p>
+            <p className='tituloContacto'>CONTACTANOS</p>
             <div className='contacto' style={{paddingTop: "2rem"}}>
                 <div className='contenedorContacto'>
                     <form className='contenedorForm' onSubmit={handleSubmit}>

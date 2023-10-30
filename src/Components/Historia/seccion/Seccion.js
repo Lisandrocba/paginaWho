@@ -6,6 +6,8 @@ import Equipo from "../../../Multimedia/TrabajoEnEquipo.jpg";
 import Compromiso from "../../../Multimedia/Compromiso.jpg";
 import Pasion from "../../../Multimedia/Pasion.jpg";
 import Empatia from "../../../Multimedia/Empatia.jpg";
+import mision from "../../../Multimedia/mision.jpg";
+import vision from "../../../Multimedia/vision.jpg";
 
 
 const Seccion = () => {
@@ -20,23 +22,29 @@ const Seccion = () => {
             <div className="ContenedorMision">
               <p className="numeroSeccion">01.</p>
               <p className="tituloSection">Misión</p>
-              <p className="parrafoSeccion">
-                Acompañar exitosamente el crecimiento de las personas y empresas
-                del mundo IT, a través de nuestros servicios personalizados de
-                reclutamiento, sumando valor, poniendo en práctica nuestra
-                pasión y experiencia.
-              </p>
+              <div className="contenedorMisionImg">
+                <img src={mision} alt="Imagen mision" className='visionImg sinImagen'/>
+                <p className="parrafoSeccion">
+                  Acompañar exitosamente el crecimiento de las personas y empresas
+                  del mundo IT, a través de nuestros servicios personalizados de
+                  reclutamiento, sumando valor, poniendo en práctica nuestra
+                  pasión y experiencia.
+                </p>
+              </div>
             </div>
           </div>
           <div className="vision">
             <div className="ContenedorVision">
               <p className="numeroSeccion">02.</p>
               <p className="tituloSection">Visión</p>
-              <p className="parrafoSeccion">
-                Ser la consultora líder en el mundo IT creando puentes entre los
-                talentos y las empresas, conectando profesionales con
-                oportunidades.
-              </p>
+              <div className="contenedorMisionImg">
+                <img src={vision} alt="Imagen vision" className="visionImg sinImagen"/>
+                <p className="parrafoSeccion">
+                  Ser la consultora líder en el mundo IT creando puentes entre los
+                  talentos y las empresas, conectando profesionales con
+                  oportunidades.
+                </p>
+              </div>
             </div>
           </div>
           <div className="valores">
@@ -45,7 +53,7 @@ const Seccion = () => {
               <p className="tituloSection">Valores</p>
               <div className="listaValores">
                 <div>
-                  <img src={Honestidad} alt="Imagen Honestidad"/>
+                  <img src={Honestidad} alt="Imagen Honestidad "/>
                   <p>
                      Honestidad.
                   </p>

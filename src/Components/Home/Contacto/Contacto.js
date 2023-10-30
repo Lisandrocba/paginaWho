@@ -58,7 +58,7 @@ const Contacto =()=>{
 
     return (
         <div className='contacto'>
-            <h3 className='tituloContacto'>Contacto</h3>
+            <h3 className='tituloContacto'>CONTACTANOS</h3>
             <div className='contenedorContacto'>
                 <form className='contenedorForm' onSubmit={handleSubmit}>
                     <input type='text' name='name' placeholder='Escribe tu nombre' onChange={handleChange} value={form.name} onBlur={handleBlur} required/>
