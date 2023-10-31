@@ -1,0 +1,57 @@
+.contenedorRecluting{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.hijo1ContenedorRecluting{
+    width: 50vw;
+    height: auto;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.hijo2ContenedorRecluting{
+    width: 50vw;
+    height: auto;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.tituloCursoRecluting{
+    font-size: xx-large;
+    color: #3981bf;
+    text-align: center;
+}
+
+.parrafoCursoRecluting{
+    font-size: x-large;
+    color: rgb(63, 63, 63);
+    font: bold;
+    padding-left: 1rem;
+}
+
+.botonCurso{
+    background: #3981bf;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font: lighter;
+    margin-top: 5px;
+}
+
+.botonCurso:hover{
+    cursor: pointer;
+    color: #164975;
+    background: #b5d3ee;
+}
+

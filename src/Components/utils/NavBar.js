@@ -9,6 +9,7 @@ function NavBar (){
             <ul className='contenedorNavBar'>
                 <li><NavLink className='itemNavbar' to='/historia'>Nosotros</NavLink></li>
                 <li><NavLink className='itemNavbar' to='/empresas'>Empresas</NavLink></li>
+                <li><NavLink className='itemNavbar' to='/recluting'>Recluting It</NavLink></li>
             </ul>   
         </div>
     )
