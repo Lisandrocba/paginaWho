@@ -19,6 +19,7 @@ const validateForm =(form)=>{
     let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
     let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
     let regexComments = /^.{1,255}$/;
+    
 
     if(!form.name.trim()){
         errors.name = "El campo 'Nombre' es requerido";

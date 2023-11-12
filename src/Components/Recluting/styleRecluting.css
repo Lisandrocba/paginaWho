@@ -1,8 +1,7 @@
 .contenedorRecluting{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    
     width: 100vw;
     height: 70vh;
 }
@@ -29,6 +28,7 @@
     font-size: xx-large;
     color: #3981bf;
     text-align: center;
+    margin-top: 0;
 }
 
 .parrafoCursoRecluting{
@@ -53,5 +53,25 @@
     cursor: pointer;
     color: #164975;
     background: #b5d3ee;
+}
+
+.aclaracionCurso{
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+    width: 100%;
+}
+
+.contenedorTrabjar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 90vh;
+    background-color: #3981bf;
+    margin-top: 5rem;
+}
+
+.contenedorTrabjar h3{
+    color: #ffffff;
+    font-size: xx-large;
 }
 

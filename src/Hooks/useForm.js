@@ -22,7 +22,7 @@ export const useForm = (initialForm, validateForm, formulario) => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     setErrors(validateForm(form))
-
+    console.log(e.target)
     if(Object.keys(errors).length === 0){
       if(formulario === "contacto"){
         emailjs.sendForm('service_7fjzocl', 'template_2g6rlxs', e.target, 'jTWgE9_LnAdbrSmz5')
