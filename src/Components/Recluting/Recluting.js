@@ -14,13 +14,10 @@ const Recluting = () => {
         <div className="hijo1ContenedorRecluting">
           <p className="aclaracionCurso">Curso Udemy</p>
           <h2 className="tituloCursoRecluting">
-            Aprende sobre las mejores practicas en reclutamiento y seleccion IT
+          Formate con nosotros!
           </h2>
           <p className='parrafoCursoRecluting'>
-            Este curso tiene el objetivo de convertirlos en recruiter IT
-            expertos, de manera que puedan trabajar freelance para el exterior,
-            en los mejores proyectos, para llevar al maximo su carrera y poder 
-            ganar en USD
+          Este curso tiene el objetivo de convertirlos en recruiter IT expertos. y para lograrlo te vamos a enseñar a utilizar las mejores practicas y las ultimas tendencias en reclutamiento y seleccion IT
           </p>
           <a rel="noreferrer" href="https://www.udemy.com/course/reclutamiento-it-el-impacto-de-la-inteligencia-artificial/learn/lecture/37196598#overview" target="_blank" className="botonCurso">Obtener Curso</a>
         </div>
