@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import { useForm } from "../../../Hooks/useForm";
-import "./contacto.css"
+import "./../../Home/Contacto/styleContacto.css"
 
 const formulario = "empresas"
 

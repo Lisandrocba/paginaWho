@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import './styleRecluting.css'
 
 const initialState = {
   name: "",
@@ -85,9 +86,10 @@ const FormRecruiter = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="itemFormRecruiter">
           <label>Nombre Completo</label>
           <input
+            className='inputRectuiter'
             type="text"
             name="name"
             value={form.name}
@@ -96,9 +98,10 @@ const FormRecruiter = () => {
           />
           {error.name ? <p>{error.name}</p> : null}
         </div>
-        <div>
+        <div className="itemFormRecruiter">
           <label>Email</label>
           <input
+            className='inputRectuiter'
             type="email"
             name="email"
             value={form.email}
@@ -107,18 +110,20 @@ const FormRecruiter = () => {
           />
           {error.email ? <p>{error.email}</p> : null}
         </div>
-        <div>
+        <div className="itemFormRecruiter">
           <label>Telefono</label>
           <input
+            className='inputRectuiter'
             type="tel"
             name="telefono"
             value={form.telefono}
             onChange={handleChange}
           />
         </div>
-        <div>
+        <div className="itemFormRecruiter">
           <label>Linkedin</label>
           <input
+            className='inputRectuiter'
             type="url"
             name="linkedin"
             value={form.linkedin}
@@ -127,7 +132,7 @@ const FormRecruiter = () => {
           />
           {error.linkedin ? <p>{error.linkedin}</p> : null}
         </div>
-        <button type="submit">Enviar por correo</button>
+        <button className='btnFormRecriter' type="submit">Enviar por correo</button>
         {msj && <p>{msj}</p>}
       </form>
     </div>

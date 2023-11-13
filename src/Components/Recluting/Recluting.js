@@ -3,6 +3,8 @@ import NavBar from "../utils/NavBar";
 import ReactPlayer from "react-player";
 import './styleRecluting.css'
 import FormRecruiter from "./FormRecruiter";
+import imgFormRecruiter from '../../Multimedia/retrato-joven-morena__2_-removebg copia.png'
+import { Footer } from "../utils/footer/Footer";
 
 const Recluting = () => {
   return (
@@ -26,10 +28,14 @@ const Recluting = () => {
           <ReactPlayer url="https://youtu.be/vsX1nAq_XG8" volume={0.5} />
         </div>
       </div>
-      <div className="contenedorTrabjar">
+      <div className="contenedorPrincipalTrabjar">
+        <img src={imgFormRecruiter} alt='img recluting' className='imgRecluting'/>
+        <div className="contenedorTrabjar">
         <h3>Sumate a nuestro equipo</h3>
-        <FormRecruiter />
+          <FormRecruiter />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };
