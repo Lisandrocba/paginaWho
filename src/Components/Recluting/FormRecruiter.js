@@ -39,7 +39,7 @@ const validateForm = (name, value) => {
       if (!value.trim()) {
         errors.linkedin = "El campo 'Linkedin' es requerido";
       } else if (!regexUrl.test(value.trim())) {
-        errors.linkedin = "El campo 'Linkedin' es incorrecto, debe tener la url completa";
+        errors.linkedin = "El campo 'Linkedin' es incorrecto";
       }
       break;
 
