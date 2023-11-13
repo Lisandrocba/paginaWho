@@ -143,10 +143,34 @@
 
 }
 
-@media (min-width: 897px) {
+@media (max-width: 897px) {
+    .contenedorRecluting{
+        flex-direction: column;
+    }
+    .hijo1ContenedorRecluting{
+        width: 100vw;
+    }
+    .parrafoCursoRecluting{
+        padding: 0 6rem;
+    }
+    .tituloCursoRecluting{
+        padding: 0 3rem;
+    }
 
+    .imgRecluting{
+        display: none;
+    }
+    .inputRectuiter{
+        width: 70vw !important;
+    }
+    .btnFormRecriter{
+        width: 70vw;
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 700px){
-    
+ .videoRecluting{
+    width: 70vw
+ }
 }

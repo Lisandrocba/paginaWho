@@ -25,7 +25,7 @@ const Recluting = () => {
           <button className="botonCurso">Obtener Curso</button>
         </div>
         <div className="hijo2ContenedorRecluting">
-          <ReactPlayer url="https://youtu.be/vsX1nAq_XG8" volume={0.5} />
+          <ReactPlayer url="https://youtu.be/vsX1nAq_XG8" volume={0.5}  className='videoRecluting'/>
         </div>
       </div>
       <div className="contenedorPrincipalTrabjar">
