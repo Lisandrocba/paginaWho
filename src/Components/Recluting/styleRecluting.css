@@ -146,9 +146,18 @@
 @media (max-width: 897px) {
     .contenedorRecluting{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .hijo1ContenedorRecluting{
         width: 100vw;
+    }
+    .hijo2ContenedorRecluting{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .parrafoCursoRecluting{
         padding: 0 6rem;
@@ -173,4 +182,10 @@
  .videoRecluting{
     width: 70vw
  }
+ .parrafoCursoRecluting{
+    padding: 0 2rem;
+}
+.tituloCursoRecluting{
+    padding: 0 1rem;
+}
 }
