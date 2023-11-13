@@ -22,7 +22,7 @@ const Recluting = () => {
             en los mejores proyectos, para llevar al maximo su carrera y poder 
             ganar en USD
           </p>
-          <button className="botonCurso">Obtener Curso</button>
+          <a rel="noreferrer" href="https://www.udemy.com/course/reclutamiento-it-el-impacto-de-la-inteligencia-artificial/learn/lecture/37196598#overview" target="_blank" className="botonCurso">Obtener Curso</a>
         </div>
         <div className="hijo2ContenedorRecluting">
           <ReactPlayer url="https://youtu.be/vsX1nAq_XG8" volume={0.5}  className='videoRecluting'  width='80%'/>

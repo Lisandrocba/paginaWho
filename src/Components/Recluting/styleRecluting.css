@@ -18,6 +18,10 @@
 }
 
 .hijo2ContenedorRecluting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50vw;
     height: auto;
     margin: 2rem;
@@ -47,6 +51,7 @@
     font-size: 1.1rem;
     font: lighter;
     margin-top: 5px;
+    text-decoration: none;
 }
 
 .botonCurso:hover{
