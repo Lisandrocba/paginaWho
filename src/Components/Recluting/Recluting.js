@@ -17,7 +17,7 @@ const Recluting = () => {
           Formate con nosotros!
           </h2>
           <p className='parrafoCursoRecluting'>
-          Este curso tiene el objetivo de convertirlos en recruiter IT expertos. y para lograrlo te vamos a enseñar a utilizar las mejores practicas y las ultimas tendencias en reclutamiento y seleccion IT
+          Este curso tiene el objetivo de convertirlos en recruiter IT expertos, y para lograrlo te vamos a enseñar a utilizar las mejores practicas y las ultimas tendencias en reclutamiento y seleccion IT
           </p>
           <a rel="noreferrer" href="https://www.udemy.com/course/reclutamiento-it-el-impacto-de-la-inteligencia-artificial/learn/lecture/37196598#overview" target="_blank" className="botonCurso">Obtener Curso</a>
         </div>
