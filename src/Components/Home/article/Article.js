@@ -10,7 +10,7 @@ const Article =()=>{
     return(
         <div className='containerArticle'>
             <div className='containerAvatar'>
-                <a href='https://www.linkedin.com/in/maria-belen-cordoba-b93122113/' target='_blank'>
+                <a href='https://www.linkedin.com/in/maria-belen-cordoba-b93122113/' target='_blank' rel="noreferrer">
                     <img src={blanquita} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
@@ -20,7 +20,7 @@ const Article =()=>{
                 </div>
             </div>
             <div className='containerAvatar'>
-                <a href='https://www.linkedin.com/in/nadia-jurevicius-rodriguez-10a8b121a/' target='_blank'>
+                <a href='https://www.linkedin.com/in/nadia-jurevicius-rodriguez-10a8b121a/' target='_blank' rel="noreferrer">
                     <img src={nadia} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
@@ -30,7 +30,7 @@ const Article =()=>{
                 </div>
             </div>
             <div className='containerAvatar'>
-                <a href='https://www.linkedin.com/in/juan-manuel-roman-a9531a21/' target='_blank'>
+                <a href='https://www.linkedin.com/in/juan-manuel-roman-a9531a21/' target='_blank' rel="noreferrer">
                     <img src={juan} alt='Logo' height= '60' className='imgAvatar'/>
                 </a>
                 <div className='lineaAvatar'></div>
