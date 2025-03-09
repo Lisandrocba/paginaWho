@@ -10,6 +10,7 @@ import { Footer } from "../utils/footer/Footer";
 const Home =()=>{
     return (
         <div>
+            <p>Hola mundo</p>
             <NavBar />
             <Carrusel />
             <Seccion />
